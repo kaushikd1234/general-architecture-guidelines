@@ -58,3 +58,6 @@ By incorporating these design considerations into your solution architecture, yo
 
 ### bean post processor snapshot and use
 <img width="474" alt="image" src="https://github.com/kaushikd1234/general-architecture-guidelines/assets/123860112/d792af38-2b54-4c9d-8556-aa643adadc67">
+
+#### sample youtube link 
+https://www.youtube.com/watch?v=XfScG87YSHQ
