@@ -55,3 +55,6 @@ Retry and Backoff Strategies:
 
 Implement retry and backoff strategies for processing tasks to handle transient failures gracefully. Retry failed processing tasks with exponential backoff to avoid overwhelming the system during periods of high contention or failures.
 By incorporating these design considerations into your solution architecture, you can effectively handle concurrent file processing across multiple nodes without encountering issues related to duplicate processing.
+
+### bean post processor snapshot and use
+<img width="474" alt="image" src="https://github.com/kaushikd1234/general-architecture-guidelines/assets/123860112/d792af38-2b54-4c9d-8556-aa643adadc67">
