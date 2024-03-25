@@ -1,6 +1,10 @@
 
 #### How State Machines Work in AWS Step Functions:
 
+AWS Step Functions follows the orchestrator pattern, acting as the centralized controller for orchestrating and sequencing the execution of various tasks or states within a workflow. The state machine in Step Functions defines the sequence of states and transitions between them, and Step Functions manages the execution of these states based on the defined workflow logic. It provides error handling, retries, and state management capabilities, making it well-suited for orchestrating complex workflows involving multiple AWS services.
+
+#### In summary, AWS Step Functions serves as an orchestrator that coordinates the execution of tasks or states within a workflow, making it easier to build and manage scalable and reliable applications.
+
 States: Each step or action in your workflow is represented as a state. There are different types of states in AWS Step Functions, including Task states, Choice states, Parallel states, Wait states, Pass states, and more.
 
 Transitions: Transitions define the conditions under which your workflow moves from one state to another. These conditions can be based on the success or failure of a task, input data, or other variables.
