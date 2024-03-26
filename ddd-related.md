@@ -61,3 +61,7 @@ By incorporating these design considerations into your solution architecture, yo
 
 #### sample youtube link 
 https://www.youtube.com/watch?v=XfScG87YSHQ
+
+#### enterprise integration patterns
+https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+
