@@ -67,5 +67,10 @@ https://www.enterpriseintegrationpatterns.com/patterns/messaging/
 #### Spring Batch Dynamic File Upload Example | Spring Boot | JavaTechie
 https://github.com/Java-Techie-jt/spring-batch-file-upload
 
+#### spring batch version upgrade to springboot 3 my github account link
+https://github.com/kaushikd1234/spring-batch-3-demo/tree/master
+
+
+
 https://github.com/Java-Techie-jt/spring-batch-file-upload
 
