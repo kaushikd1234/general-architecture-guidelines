@@ -1,3 +1,19 @@
+#### difference between azure bridge and azure bus
+#### Azure Service Bus:
+
+Azure Service Bus is a fully managed enterprise integration message broker service, offering reliable message queuing and durable publish/subscribe messaging.
+It enables communication between applications and services in a decoupled manner, allowing them to exchange messages asynchronously.
+Key features include support for queues, topics, and subscriptions, as well as advanced messaging patterns like dead-lettering, sessions, and transactions.
+Azure Service Bus is commonly used in scenarios such as application-to-application communication, event-driven architectures, and asynchronous workflows.
+Azure Bridge:
+
+#### Azure Bridge
+this is a service designed specifically for bridging messaging between different messaging systems and protocols.
+It acts as a connector between on-premises messaging systems and Azure messaging services, facilitating seamless communication between them.
+Azure Bridge supports various messaging protocols like AMQP, MQTT, and MQ. It also supports different messaging systems such as IBM MQ, ActiveMQ, RabbitMQ, and more.
+This service is particularly useful in hybrid cloud scenarios where organizations have existing on-premises messaging infrastructure and want to integrate it with Azure services without significant changes or disruptions.
+In summary, while Azure Service Bus is primarily focused on providing messaging capabilities within Azure, Azure Bridge serves as a bridge between on-premises messaging systems and Azure services, facilitating interoperability and integration between different messaging environments.
+
 #### Strangler fig pattern
 https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-decomposing-monoliths/strangler-fig.html
 #### Decompose by transactions
