@@ -1,3 +1,9 @@
+#### example code when hibernate update throws exception on update method
+
+<img width="436" alt="image" src="https://github.com/kaushikd1234/general-architecture-guidelines/assets/123860112/07894629-2bac-4128-b002-132129481fb7">
+
+
+
 #### Micro services design patterns 
 https://microservices.io/patterns/apigateway.html
 
