@@ -1,5 +1,39 @@
 #### Micro services design patterns 
 https://microservices.io/patterns/apigateway.html
+
+#### API composition and API aggegator pattern difference ?
+
+**API Composition:**
+
+Definition: API composition involves combining multiple APIs together to create a new, more comprehensive API that serves a specific purpose or functionality.
+
+Purpose: The main goal of API composition is to simplify the consumption of APIs by providing a unified interface tailored to the needs of the application or service.
+
+Implementation: In API composition, the integration logic is typically handled within the application itself. The application developer selects the necessary APIs and orchestrates them to achieve the desired functionality.
+
+Example: Suppose you are building an e-commerce application. Instead of exposing separate endpoints for inventory management, payment processing, and shipping, you might compose these functionalities into a single API that handles the entire checkout process.
+
+**API Aggregator:**
+
+Definition: API aggregation involves collecting data or services from multiple APIs and presenting them to the user or application as a unified dataset or interface.
+
+Purpose: The primary objective of API aggregation is to gather and consolidate information from disparate sources to provide a comprehensive view or service.
+
+Implementation: In API aggregation, the integration logic is typically centralized within an aggregator service or layer. This aggregator service communicates with various APIs, retrieves data from them, and aggregates it before presenting it to the user or downstream applications.
+
+**Example: Consider a weather application that displays weather forecasts from multiple sources (e.g., NOAA, AccuWeather, Weather.com). Instead of accessing each weather service individually, the application aggregates data from all sources and presents a single, unified forecast to the user.**
+
+**Key Differences:**
+
+Purpose: API composition focuses on combining APIs to create new functionality, while API aggregation focuses on gathering and presenting data or services from multiple APIs.
+
+Implementation: API composition involves integrating APIs within the application itself, while API aggregation typically involves a centralized aggregator service or layer that communicates with multiple APIs.
+
+Scope: API composition is more about designing APIs for specific use cases within an application, while API aggregation is about consolidating data or services from various sources into a single interface.
+
+In summary, while both API composition and API aggregation involve integrating multiple APIs, they differ in their purpose, implementation, and scope. API composition creates new functionality by combining APIs within an application, while API aggregation gathers and presents data from multiple APIs in a unified manner
+
+
 #### service mesh internal architecture 
 
 The internal architecture of a service mesh typically involves several key components working together to facilitate communication between microservices. While specific implementations may vary, here's a general overview of the internal architecture of a service mesh:
