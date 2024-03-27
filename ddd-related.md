@@ -1,3 +1,7 @@
+#### Micro services design patterns 
+https://microservices.io/patterns/apigateway.html
+
+
 #### difference between azure bridge and azure bus
 #### Azure Service Bus:
 
