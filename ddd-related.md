@@ -1,5 +1,25 @@
 #### Micro services design patterns 
 https://microservices.io/patterns/apigateway.html
+#### service mesh internal architecture 
+
+The internal architecture of a service mesh typically involves several key components working together to facilitate communication between microservices. While specific implementations may vary, here's a general overview of the internal architecture of a service mesh:
+
+**Data Plane**:
+
+Sidecar Proxy: Each service instance is augmented with a sidecar proxy. This proxy is responsible for intercepting all inbound and outbound traffic to and from the service instance. It handles various tasks such as load balancing, routing, security, and telemetry collection.
+**Control Plane:**
+
+Service Discovery: This component keeps track of all available services and their instances within the mesh. It dynamically updates the service registry as new instances are deployed or existing instances are removed.
+
+Traffic Management: This component is responsible for configuring routing rules and traffic policies within the service mesh. It enables features such as traffic splitting, A/B testing, canary deployments, and blue-green deployments.
+
+Security: The security component manages policies and mechanisms for securing communication between services. This includes authentication, authorization, and encryption (e.g., mutual TLS) to ensure that only authorized services can communicate with each other securely.
+
+Telemetry and Observability: This component collects telemetry data such as metrics, logs, and traces from the sidecar proxies to provide visibility into the behavior and performance of services within the mesh. It enables monitoring, troubleshooting, and performance optimization of microservices-based applications.
+
+Configuration Management: This component centralizes the management of configuration settings for the service mesh. It allows operators to define and update configuration policies that govern the behavior of the mesh, such as routing rules, security policies, and traffic management policies.
+
+**Overall, the internal architecture of a service mesh is designed to provide a dedicated infrastructure layer for managing communication between microservices in a distributed system. By decoupling communication concerns from individual services and centralizing them within the mesh, service meshes enable improved visibility, security, and reliability for microservices-based applications.**
 
 #### What is SSL termination in AWS ALB ?
 SSL termination in AWS Application Load Balancer (ALB) refers to the process of decrypting SSL/TLS encrypted traffic at the load balancer before forwarding it to the backend targets (such as EC2 instances or containers).
