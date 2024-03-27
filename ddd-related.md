@@ -1,6 +1,19 @@
 #### Micro services design patterns 
 https://microservices.io/patterns/apigateway.html
 
+#### What is SSL termination in AWS ALB ?
+SSL termination in AWS Application Load Balancer (ALB) refers to the process of decrypting SSL/TLS encrypted traffic at the load balancer before forwarding it to the backend targets (such as EC2 instances or containers).
+
+When SSL termination is enabled on an ALB, clients establish encrypted connections with the load balancer using HTTPS. The ALB then decrypts the incoming traffic, inspects the requests, and forwards them to the backend targets over the internal network in plain HTTP. This allows the backend targets to handle the requests without the overhead of SSL/TLS encryption and decryption.
+
+SSL termination provides several benefits:
+
+Offloading SSL/TLS Processing: By offloading SSL/TLS decryption to the load balancer, backend instances can focus on processing application logic without the overhead of SSL/TLS encryption and decryption. This can improve performance and reduce the computational load on backend instances.
+
+Centralized Certificate Management: SSL termination allows for centralized management of SSL/TLS certificates at the load balancer level. Instead of deploying certificates on individual backend instances, certificates can be managed centrally on the load balancer, simplifying certificate management and ensuring consistency.
+
+Improved Security: SSL termination allows the load balancer to inspect incoming traffic before forwarding it to backend instances. This enables the load balancer to perform security-related tasks such as access control, WAF (Web Application Firewall) filtering, and threat detection
+
 
 #### difference between azure bridge and azure bus
 #### Azure Service Bus:
