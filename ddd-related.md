@@ -7,6 +7,7 @@ The internal architecture of a service mesh typically involves several key compo
 **Data Plane**:
 
 Sidecar Proxy: Each service instance is augmented with a sidecar proxy. This proxy is responsible for intercepting all inbound and outbound traffic to and from the service instance. It handles various tasks such as load balancing, routing, security, and telemetry collection.
+
 **Control Plane:**
 
 Service Discovery: This component keeps track of all available services and their instances within the mesh. It dynamically updates the service registry as new instances are deployed or existing instances are removed.
