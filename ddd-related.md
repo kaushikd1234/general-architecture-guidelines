@@ -1,7 +1,9 @@
-### Strangler fig pattern
+#### Strangler fig pattern
 https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-decomposing-monoliths/strangler-fig.html
+#### Decompose by transactions
+https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-decomposing-monoliths/decompose-transactions.html
 
-### Domain-Driven Design (DDD)
+#### Domain-Driven Design (DDD)
 this is an architectural approach and methodology for designing complex software systems based on a deep understanding of the business domain. It was introduced by Eric Evans in his book "Domain-Driven Design: Tackling Complexity in the Heart of Software." DDD emphasizes the importance of focusing on the core domain and modeling it explicitly within the software system.
 
 Here are key concepts and principles of Domain-Driven Design:
