@@ -12,8 +12,11 @@ Analyze Dependencies: Analyze the dependencies between different components/modu
 Domain-Driven Design (DDD):
 
 Bounded Contexts: Define bounded contexts for each domain. A bounded context is a specific boundary within which a particular domain model and its associated terminology apply. It helps in keeping the domain models isolated and focused.
+
 Aggregate Roots: Within each bounded context, identify aggregate roots. An aggregate root is an entity that serves as a gateway to a group of related entities. It helps in maintaining consistency and transactional integrity within a domain.
+
 Entities and Value Objects: Identify entities (objects with a distinct identity) and value objects (immutable objects without a distinct identity) within each domain.
+
 Decompose by Microservices or Modules:
 
 Microservices Approach: Decompose the monolith into microservices based on domain boundaries. Each microservice is responsible for a specific domain or subdomain.
@@ -23,6 +26,7 @@ Define APIs and Contracts: Clearly define APIs and contracts between different m
 Data Management:
 
 Database Per Service: If using microservices, consider adopting a database per service approach where each microservice has its own database. This helps in maintaining data isolation and autonomy.
+
 Shared Database with Schema per Service: If using modules within a monolith, consider maintaining a shared database but with separate schemas for each module/domain.
 Implement and Refactor: Implement the decomposition strategy by creating new microservices/modules or refactoring existing codebase. Gradually migrate functionality from the monolith to the new architecture.
 
