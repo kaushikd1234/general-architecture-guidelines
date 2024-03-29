@@ -1,6 +1,10 @@
 
 #### good blog on dynamo DB 
 https://newsletter.systemdesign.one/p/amazon-dynamo-architecture
+#### Exploring the Power of Event-Driven Architecture
+
+https://blog.levelupcoding.com/p/luc-46-exploring-power-eventdriven-architecture
+
 
 #### example code when hibernate update throws exception on update method
 
