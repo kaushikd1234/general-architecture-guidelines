@@ -2,6 +2,9 @@
 
 https://www.youtube.com/watch?v=DFSko_sLyMM
 
+https://aws.amazon.com/step-functions/use-cases/#:~:text=In%20this%20example%2C%20you%20have,data%20is%20available%20in%20S3.
+
+
 #### Exploring the Power of Event-Driven Architecture
 
 https://blog.levelupcoding.com/p/luc-46-exploring-power-eventdriven-architecture
