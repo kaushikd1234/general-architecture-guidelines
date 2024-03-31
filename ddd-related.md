@@ -1,6 +1,7 @@
+#### Build a Serverless Workflow with AWS Step Functions
 
-#### good blog on dynamo DB 
-https://newsletter.systemdesign.one/p/amazon-dynamo-architecture
+https://www.youtube.com/watch?v=DFSko_sLyMM
+
 #### Exploring the Power of Event-Driven Architecture
 
 https://blog.levelupcoding.com/p/luc-46-exploring-power-eventdriven-architecture
