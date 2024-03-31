@@ -1,3 +1,9 @@
+#### AWS Hands-On: Integrate AWS Step Functions with EventBridge
+
+https://www.youtube.com/watch?v=f_uNbo2cunk&t=399s
+
+https://github.com/CumulusCycles/AWS_Step_Functions_demo/tree/main?tab=readme-ov-file
+
 #### Build a Serverless Workflow with AWS Step Functions
 
 https://www.youtube.com/watch?v=DFSko_sLyMM
