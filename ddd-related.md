@@ -1,3 +1,6 @@
+#### Lambda Layer concept : https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html
+
+
 #### AWS Hands-On: Integrate AWS Step Functions with EventBridge
 
 https://www.youtube.com/watch?v=f_uNbo2cunk&t=399s
