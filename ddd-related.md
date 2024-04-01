@@ -1,3 +1,5 @@
+#### kafta retry demo : https://www.youtube.com/watch?v=aNBSd7T-RGA&t=11s
+
 #### Lambda Layer concept : https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html
 
 
