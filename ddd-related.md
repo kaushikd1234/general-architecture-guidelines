@@ -6,12 +6,14 @@
 https://www.youtube.com/watch?v=f_uNbo2cunk&t=399s
 
 https://github.com/CumulusCycles/AWS_Step_Functions_demo/tree/main?tab=readme-ov-file
+#### My github demo project : https://github.com/kaushikd1234/aws-eventbridge-statemachine-demo/
 
 #### Build a Serverless Workflow with AWS Step Functions
 
 https://www.youtube.com/watch?v=DFSko_sLyMM
 
 https://aws.amazon.com/step-functions/use-cases/#:~:text=In%20this%20example%2C%20you%20have,data%20is%20available%20in%20S3.
+
 
 
 #### Exploring the Power of Event-Driven Architecture
