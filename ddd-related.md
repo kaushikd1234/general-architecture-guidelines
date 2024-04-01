@@ -1,4 +1,5 @@
 #### kafta retry demo : https://www.youtube.com/watch?v=aNBSd7T-RGA&t=11s
+https://github.com/Java-Techie-jt/kafka-error-handling
 
 #### Lambda Layer concept : https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html
 
