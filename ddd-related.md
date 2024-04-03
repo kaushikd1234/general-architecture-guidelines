@@ -1,4 +1,6 @@
 
+#### Sending messages to SQS from AWS Lambda : https://www.youtube.com/watch?v=nhEFJgIhvuk
+
 #### AWS DynamoDB Streams video
 How to setup and create Lambda triggers : https://www.youtube.com/watch?v=7aGYmQ1xDr0
 
