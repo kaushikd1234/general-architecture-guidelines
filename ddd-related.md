@@ -1,6 +1,8 @@
 
 #### Sending messages to SQS from AWS Lambda : https://www.youtube.com/watch?v=nhEFJgIhvuk
 
+#### AWS Lambda Python functions with a database (DynamoDB) :  https://www.youtube.com/watch?v=CjVPMocEECM
+
 #### AWS DynamoDB Streams video
 How to setup and create Lambda triggers : https://www.youtube.com/watch?v=7aGYmQ1xDr0
 
