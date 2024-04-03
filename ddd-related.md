@@ -1,3 +1,7 @@
+
+#### AWS DynamoDB Streams video
+How to setup and create Lambda triggers : https://www.youtube.com/watch?v=7aGYmQ1xDr0
+
 #### kafta retry demo : https://www.youtube.com/watch?v=aNBSd7T-RGA&t=11s
 https://github.com/Java-Techie-jt/kafka-error-handling
 
