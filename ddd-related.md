@@ -1,3 +1,5 @@
+##### Developing AWS Lambda Functions Locally in VS Code
+https://www.youtube.com/watch?v=fEZE3rm8Ma8
 
 #### Sending messages to SQS from AWS Lambda : https://www.youtube.com/watch?v=nhEFJgIhvuk
 
